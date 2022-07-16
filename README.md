@@ -1,4 +1,4 @@
-# 1111Scoop安装和使用指南
+# Scoop安装和使用指南
 
 推荐博客：https://www.limufang.com/post/569.html
 
@@ -44,15 +44,15 @@ Scoop是一款适用于Windows平台的命令行软件（包）管理工具，�
    iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/lukesampson/scoop/master/bin/install.ps1')        //我用的是这个
    ```
 
-   ![image-20220706232906985](https://github.com/kotiler/Scoop/tree/main/README-IMG/2.png)
+   ![image-20220706232906985](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/2.png)
 
-   ![image-20220707101857389](https://github.com/kotiler/Scoop/tree/main/README-IMG/3.png)
+   ![image-20220707101857389](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/3.png)
 
 5. 使用scoop config proxy 127.0.0.1:10809将端口配置成vpn的端口（10809：这里是我自己的端口），因为scoop update更新自己需要在官网下载，需要配置成vpn的端口，或者要设置vpn为全局代理。
 
 6. 如果使用scoop config proxy 127.0.0.1:10809更改了端口配置，想要恢复默认的，那么就要在用户名的config文件夹中删除掉scoop的配置文件。如下：
 
-   ![image-20220707101157747](https://github.com/kotiler/Scoop/tree/main/README-IMG/4.png)
+   ![image-20220707101157747](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/4.png)
 
    
 
@@ -60,13 +60,13 @@ Scoop是一款适用于Windows平台的命令行软件（包）管理工具，�
 
 8. scoop update：安装好后可以用这个命令来更新自己（如果不使用scoop config proxy 127.0.0.1:10809来配置端口或者设置全局代理，那么会出错）。
 
-   ![image-20220707105009350](https://github.com/kotiler/Scoop/tree/main/README-IMG/5.png)
+   ![image-20220707105009350](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/5.png)
 
-   ![image-20220707102331955](https://github.com/kotiler/Scoop/tree/main/README-IMG/6.png)
+   ![image-20220707102331955](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/6.png)
 
 9. 安装应用，首先安装git：scoop install git
 
-   ![image-20220706234056304](https://github.com/kotiler/Scoop/tree/main/README-IMG/7.png)
+   ![image-20220706234056304](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/7.png)
 
 10. 安装好后就可以在设定的位置看到Scoop文件夹了，内部相关文件夹的作用如下：
 
@@ -88,7 +88,7 @@ Scoop是一款适用于Windows平台的命令行软件（包）管理工具，�
 
     至于如何添加软件源，稍后再讲 
 
-![image-20220707110245854](https://github.com/kotiler/Scoop/tree/main/README-IMG/8.png)
+![image-20220707110245854](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/8.png)
 
 13. 添加更多的软件包  
 
@@ -102,7 +102,7 @@ Scoop是一款适用于Windows平台的命令行软件（包）管理工具，�
     scoop bucket add raresoft https://github.com/L-Trump/scoop-raresoft  （raresoft是软件包名，后面的是github地址）
     ```
 
-    ![image-20220707111021431](https://github.com/kotiler/Scoop/tree/main/README-IMG/9.png)
+    ![image-20220707111021431](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/9.png)
 
 14. 软件包网址推荐：
 
