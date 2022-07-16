@@ -1,4 +1,4 @@
-# Scoop安装和使用指南
+# 1111Scoop安装和使用指南
 
 推荐博客：https://www.limufang.com/post/569.html
 
@@ -12,7 +12,7 @@ Scoop是一款适用于Windows平台的命令行软件（包）管理工具，�
 
 2. 设置访问权限：Set-ExecutionPolicy RemoteSigned -scope CurrentUser 
 
-   ![image-20220706232950160](https://github.com/kotiler/Scoop/tree/main/README-IMG/1.png)
+   ![image-20220706232950160](https://raw.githubusercontent.com/kotiler/Scoop/main/README-IMG/1.png)
 
 3. 设置Scoop的位置：（两种方式）
 
